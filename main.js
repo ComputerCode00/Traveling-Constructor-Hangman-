@@ -5,7 +5,6 @@ var Game = require('./game.js');
 prompt.start();
 
 game = {
-  
   lettersFound : 0,
   guessesRemaining : 10,
   currentWrd : null, 
@@ -38,8 +37,8 @@ game = {
           game.lettersFound++;
 
           if(self.currentWrd.findWord(game.lettersFound)){
-            console.log('You Won a plane ticket to ', self.currentWrd.word);
-
+            console.log('You Won!!!');
+            console.log('Go travel to', self.currentWrd.word);
             return; 
           }
         }
@@ -58,7 +57,6 @@ game = {
     });
   }
 };
-
 
 
 game.startGame();

@@ -41,3 +41,6 @@ var Word = function(wordFunction){
     return str;
   };
 }
+
+
+exports.Word = Word;

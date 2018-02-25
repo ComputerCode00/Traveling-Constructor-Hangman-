@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/ComputerCode00/Traveling-Constructor-Hangman-/issues"
   },
-  "homepage": "https://github.com/ComputerCode00/Traveling-Constructor-Hangman-#readme"
+  "homepage": "https://github.com/ComputerCode00/Traveling-Constructor-Hangman-#readme",
+  "dependencies": {
+    "inquirer": "^5.1.0",
+    "is-letter": "^1.1.1",
+    "prompt": "^1.0.0"
+  }
 }
