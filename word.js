@@ -14,9 +14,9 @@ var Word = function(wordFunction){
   this.findWord = function(param) {
     if(param === this.lettersArray.length){
       this.found = true;
-    } 
+    }    
     return this.found;
-  };
+  };     
 
   this.checkLetter = function(guess) {
     var totalCharactersMatched = 0;
