@@ -42,7 +42,7 @@ game = {
             return; 
           }
         }
-        
+                    
         console.log('Guesses remaining: ', self.guessesRemaining);
         console.log(self.currentWrd.wordRender());
 
