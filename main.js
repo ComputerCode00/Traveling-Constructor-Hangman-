@@ -53,7 +53,7 @@ game = {
           console.log('You lost, the city was: ', self.currentWrd.word);
         }else{
           console.log(self.currentWrd.wordRender());
-        }
+        }         
     });
   }
 };
